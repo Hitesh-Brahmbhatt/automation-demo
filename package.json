@@ -1,0 +1,27 @@
+{
+  "name": "automation-demo",
+  "version": "1.0.0",
+  "description": "test automation framework using jest and puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hitesh-Brahmbhatt/automation-demo.git"
+  },
+  "author": "Hitesh Brahmbhatt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hitesh-Brahmbhatt/automation-demo/issues"
+  },
+  "homepage": "https://github.com/Hitesh-Brahmbhatt/automation-demo#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^5.5.0"
+  }
+}
